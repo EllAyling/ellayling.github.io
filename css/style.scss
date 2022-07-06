@@ -1,34 +1,20 @@
 ---
 ---
-
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-
-1.0 Defaults
-2.0 Home Hero
-  2.1 Contact
-3.0 Posts
-4.0 Footer
-
---------------------------------------------------------------*/
-
-@import '../_sass/bootstrap';
-@import '../_sass/mixins';
+@import "../_sass/bootstrap/bootstrap";
 
 $primary: #0a0a0a;
-$secondary: #FF7B7B;
 
-%opensans { font-family: 'Open Sans', sans-serif; }
+%opensans { font-family: 'Muli', sans-serif; }
 %merriweather { font-family: 'Merriweather', serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
 --------------------------------------------------------------*/
 
-@media (min-width: 1200px) {
+@media (min-width: 0px) {
   .container {
-    width: 1400px;
+    width: 100%;
+    max-width:max-content;
   }
 }
 
@@ -38,9 +24,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @extend %merriweather;
+h1 {
+  @extend %opensans;
+  font-size: 45px;
   font-weight: 700;
+  line-height: 1.2;
+}
+
+h2, h3, h4, h5, h6 {
+  @extend %opensans;
+  font-size:  36px;
+  font-weight: 200;
+  line-height: 1.2;
 }
 
 article {
@@ -48,8 +43,8 @@ article {
 }
 
 p {
-  line-height: 1.8;
-  font-size: 1.3em;
+  font-size:  19px;
+  line-height: 1.6;
 }
 
 a {
@@ -81,8 +76,7 @@ button.btn, input.btn {
   i {
     padding-right: 0.5em;
   }
-  @include bp-xsmall {
-    @include horizontal-align;
+  @include media-breakpoint-up(xs) {
     margin-bottom: 0.5em;
   }
 }
@@ -112,11 +106,11 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 0em 0;
-  @include bp-xsmall {
+  margin: 3em 0 0em 0;
+  @include media-breakpoint-up(xs) {
     margin: 5em 0 5em 0;
   }
-  @include bp-small {
+  @include media-breakpoint-up(sm) {
     margin: 5em 0 5em 0;
   }
 }
@@ -125,20 +119,20 @@ button.btn, input.btn {
   width: 60%;
   margin: 0 auto;
   display: table;
-  @include bp-medium {
+  @include media-breakpoint-up(md) {
     width: 100%;
   }
-  @include bp-small {
+  @include media-breakpoint-up(sm) {
     width: 100%;
   }
-  @include bp-xsmall {
+  @include media-breakpoint-up(xs) {
     width: 100%;
   }
   h1 {
     font-size: 48px;
   }
   p {
-    margin: 2em 0 0em 0;
+    margin: 1em 0 0em 0;
   }
   .hero-buttons {
     margin: 0 auto;
@@ -207,12 +201,12 @@ button.btn, input.btn {
 --------------------------------------------------------------*/
 #portfolio .container {
   margin-top: 0em;
-  @include bp-xsmall {
+  @include media-breakpoint-up(xs) {
     margin-top: 2em;
   }
   .break {
     margin: 8em 0;
-    @include bp-xsmall {
+    @include media-breakpoint-up(xs) {
       margin: 2em 0;
     }
   }
@@ -239,34 +233,61 @@ button.btn, input.btn {
 .section-subtitle {
   width: 40%;
   margin: 0 auto;
-  @include bp-xsmall {
+  @include media-breakpoint-up(xs) {
     width: 100%;
   }
-  @include bp-small {
+  @include media-breakpoint-up(sm) {
     width: 60%;;
   }
 }
 
+.p-2 {
+  color: #50595f;
+  background-color: #ECEFF1;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+.card {
+ width: 500px;
+ height: auto;
+ border: 0;
+ border-radius: 0;
+ box-shadow: 5px 5px 10px #e1e1e1;
+ //border-bottom-right-radius: 4em;
+ //border-top-left-radius: 4em;
+ background: linear-gradient(to left, #fff 50%, #ECEFF1 50%);
+ background-size: 200%;
+ background-position: right;
+ transition: background-position 0.5s ease-out;
+}
+
+.card:hover {
+  background-position: left;
+}
+
 .content-wrap {
   margin-bottom: 8em;
-  @include bp-xsmall {
+  @include media-breakpoint-up(xs) {
     margin-bottom: 2em;
   }
-  @include bp-small {
+  @include media-breakpoint-up(sm) {
     margin-bottom: 2em;
   }
   img.img-responsive {
-    @include bp-xsmall {
+    @include media-breakpoint-up(xs) {
       display: none;
     }
-    @include bp-small {
+    @include media-breakpoint-up(sm) {
       display: none;
     }
   }
   .content {
     margin-top: 5em;
     margin-left: 5em;
-    @include bp-xsmall {
+    @include media-breakpoint-up(xs) {
       margin-left: 0;
     }
     h3.title {
@@ -284,7 +305,7 @@ button.btn, input.btn {
     }
     .excerpt {
       width: 80%;
-      @include bp-xsmall {
+      @include media-breakpoint-up(xs) {
         width: 100%;
       }
     }
@@ -325,13 +346,13 @@ button.btn, input.btn {
     color: #9eb1bd;
     margin: 0;
     padding: 10px 0;
-    @include bp-xsmall {
+    @include media-breakpoint-up(xs) {
       text-align: center;
     }
   }
   .section-jump {
     float: right;
-    @include bp-xsmall {
+    @include media-breakpoint-up(xs) {
       float: none;
     }
   }
