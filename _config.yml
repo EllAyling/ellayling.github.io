@@ -94,7 +94,7 @@ admin_name: 'Elliott Ayling'
 enable_contact: false
 
 #### Phantom Navigation menu
-enable_nav: false
+enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
