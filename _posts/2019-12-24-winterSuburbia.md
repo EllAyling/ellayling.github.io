@@ -5,7 +5,7 @@ date: 2019-12-24 11:58:00
 tags: 
  - Unreal Engine
  - Environment Design
-card_video: '../video/posts/winterSuburbia.mp4'
+card_video: '../video/posts/wintersuburbia.mp4'
 lead_text: "Unreal Engine Environment"
 categories: portfolio
 permalink: /:categories/:title
@@ -21,7 +21,7 @@ images:
  - ../img/winterSuburbia/ws7.jpg
  - ../img/winterSuburbia/ws8.jpg
 
-feature_video: ../video/posts/winterSuburbiaFeature.mp4
+feature_video: ../video/posts/wintersuburbiafeature.mp4
 ---
 
 I wanted to expand my knowledge of 3D asset and environment production, so I took on a new project inspired by an image by Stefan Koidl. I knew I wouldn’t be able to create the entire scene myself in any timely fashion, so I focused on just creating the homes, and a few other small items. I relied on marketplace assets I had picked up over time to fill in the rest of the scene. As it is nearing Christmas, I also wanted to make the scene a little festive, and give off a sense of cosiness.
