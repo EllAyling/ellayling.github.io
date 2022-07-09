@@ -18,7 +18,7 @@ email: 'elliottayling531@gmail.com'
 description: "I am an experienced Software Engineer focusing on development of graphical applications."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ellayling.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-
+destination: docs/
 # Build settings
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
