@@ -3,10 +3,10 @@
   <channel>
     <title>Elliott Ayling</title>
     <description>I am an experienced Software Engineer focusing on development of graphical applications.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Jul 2022 12:14:37 +0100</pubDate>
-    <lastBuildDate>Sat, 09 Jul 2022 12:14:37 +0100</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 09 Jul 2022 17:32:36 +0100</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2022 17:32:36 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -22,12 +22,35 @@
 &lt;p&gt;Texture images from: &lt;a href=&quot;https://www.solarsystemscope.com/textures/&quot;&gt;https://www.solarsystemscope.com/textures/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Apr 2020 20:51:00 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/orreyvk</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/orreyvk</guid>
+        <link>http://0.0.0.0:4000/portfolio/orreyvk</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/orreyvk</guid>
         
         <category>C++</category>
         
         <category>Vulkan</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Winter Suburbia</title>
+        <description>&lt;p&gt;I wanted to expand my knowledge of 3D asset and environment production, so I took on a new project inspired by an image by Stefan Koidl. I knew I wouldn’t be able to create the entire scene myself in any timely fashion, so I focused on just creating the homes, and a few other small items. I relied on marketplace assets I had picked up over time to fill in the rest of the scene. As it is nearing Christmas, I also wanted to make the scene a little festive, and give off a sense of cosiness.&lt;/p&gt;
+
+&lt;p&gt;I made the decision to light the scene almost entirely dynamic (the exception is the spot light emulating the moon- which is stationary), as I wanted to limit my learning scope to just 3D modelling and UV texturing without thinking about lightmaps- it also allowed me to gain experience in dynamic lighting. I used a lot of fill lights to emulate how the light would bounce off the snow.&lt;/p&gt;
+
+&lt;p&gt;Overall I am pretty happy with how this turned out, and I learnt a lot regarding 3D asset creation and lighting.&lt;/p&gt;
+
+&lt;p&gt;I have listed asset sources on &lt;a href=&quot;https://www.artstation.com/artwork/XBLbRD&quot;&gt;ArtStation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Dec 2019 11:58:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/portfolio/winterSuburbia</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/winterSuburbia</guid>
+        
+        <category>Unreal Engine</category>
+        
+        <category>Environment Design</category>
         
         
         <category>portfolio</category>

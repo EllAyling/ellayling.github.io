@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Elliott Ayling</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2022-07-09T12:14:37+01:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
+ <link href="http://0.0.0.0:4000/"/>
+ <updated>2022-07-09T17:32:36+01:00</updated>
+ <id>http://0.0.0.0:4000</id>
  <author>
    <name>Elliott Ayling</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Orrey Vk</title>
-   <link href="http://localhost:4000/portfolio/orreyvk"/>
+   <link href="http://0.0.0.0:4000/portfolio/orreyvk"/>
    <updated>2020-04-27T20:51:00+01:00</updated>
-   <id>http://localhost:4000/portfolio/orreyvk</id>
+   <id>http://0.0.0.0:4000/portfolio/orreyvk</id>
    <content type="html">&lt;p&gt;A solar system simulation written for Vulkan in C++. This is an updated Vulkan version of a similar project I created in OpenGL (found &lt;a href=&quot;orreygl&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;My main aim for this project was to implement real time gravity calculations on a compute shader, whilst drawing all objects via a single draw call. My system (with a 2080ti) can manage ~500,000 objects whilst maintaining &amp;gt;30fps- with the bottleneck being the graphics draw.&lt;/p&gt;
@@ -26,6 +26,21 @@
 &lt;p&gt;Distances are in astronomical units, scaled down. Masses are in solar masses. The size of the sun is not to scale and has been scaled down to make viewing planets easier. Moon distances have also been exaggerated for effect.&lt;/p&gt;
 
 &lt;p&gt;Texture images from: &lt;a href=&quot;https://www.solarsystemscope.com/textures/&quot;&gt;https://www.solarsystemscope.com/textures/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Winter Suburbia</title>
+   <link href="http://0.0.0.0:4000/portfolio/winterSuburbia"/>
+   <updated>2019-12-24T11:58:00+00:00</updated>
+   <id>http://0.0.0.0:4000/portfolio/winterSuburbia</id>
+   <content type="html">&lt;p&gt;I wanted to expand my knowledge of 3D asset and environment production, so I took on a new project inspired by an image by Stefan Koidl. I knew I wouldn’t be able to create the entire scene myself in any timely fashion, so I focused on just creating the homes, and a few other small items. I relied on marketplace assets I had picked up over time to fill in the rest of the scene. As it is nearing Christmas, I also wanted to make the scene a little festive, and give off a sense of cosiness.&lt;/p&gt;
+
+&lt;p&gt;I made the decision to light the scene almost entirely dynamic (the exception is the spot light emulating the moon- which is stationary), as I wanted to limit my learning scope to just 3D modelling and UV texturing without thinking about lightmaps- it also allowed me to gain experience in dynamic lighting. I used a lot of fill lights to emulate how the light would bounce off the snow.&lt;/p&gt;
+
+&lt;p&gt;Overall I am pretty happy with how this turned out, and I learnt a lot regarding 3D asset creation and lighting.&lt;/p&gt;
+
+&lt;p&gt;I have listed asset sources on &lt;a href=&quot;https://www.artstation.com/artwork/XBLbRD&quot;&gt;ArtStation&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
