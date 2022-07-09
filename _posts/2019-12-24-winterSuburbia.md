@@ -5,7 +5,7 @@ date: 2019-12-24 11:58:00
 tags: 
  - Unreal Engine
  - Environment Design
-card_video: '../video/posts/wintersuburbia.mp4'
+card_video: '../video/posts/winterSuburbia.mp4'
 lead_text: "Unreal Engine Environment"
 categories: portfolio
 permalink: /:categories/:title
