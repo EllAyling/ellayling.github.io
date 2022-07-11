@@ -5,8 +5,8 @@
     <description>I am an experienced Software Engineer focusing on development of graphical applications.</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jul 2022 18:36:15 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2022 18:36:15 +0100</lastBuildDate>
+    <pubDate>Mon, 11 Jul 2022 18:53:11 +0100</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2022 18:53:11 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -87,8 +87,8 @@
 &lt;p&gt;Full write up here with in progress screenshots: &lt;a href=&quot;http://elliottayling.co.uk/unity/the-railroad-unity&quot;&gt;The Railroad- Unity – Elliott Ayling&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 24 Mar 2018 15:55:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/portfolio/theRailRoad</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/theRailRoad</guid>
+        <link>http://0.0.0.0:4000/portfolio/theRailroad</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/theRailroad</guid>
         
         <category>Unity</category>
         
