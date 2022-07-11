@@ -10,7 +10,9 @@ lead_text: "Unreal Engine Environment"
 categories: portfolio
 permalink: /:categories/:title
 project_link: portfolio/winterSuburbia
-github_link: https://github.com/EllAyling/OrreyVK
+link: https://www.artstation.com/artwork/XBLbRD
+link_type: artstation
+link_text: ArtStation
 images:
  - ../img/winterSuburbia/ws1.jpg
  - ../img/winterSuburbia/ws2.jpg
@@ -30,4 +32,4 @@ I made the decision to light the scene almost entirely dynamic (the exception is
 
 Overall I am pretty happy with how this turned out, and I learnt a lot regarding 3D asset creation and lighting.
 
-I have listed asset sources on [ArtStation](https://www.artstation.com/artwork/XBLbRD).
+Full asset list can be found on ArtStation.

@@ -16,8 +16,8 @@
       <h1 style="padding-bottom: 10px">{{ page.title }}</h1>
 
       {{ content }}
-      {% if page.github_link %}
-      <a href="{{ page.github_link }}" class="project-link"><button class="btn btn-default btn-lg" style="margin: 0 0 15px 0"><i class="fa fa-github fa-lg"></i>Github</button></a> 
+      {% if page.link_type %}
+      <a href="{{ page.link }}" class="project-link"><button class="btn btn-default btn-lg" style="margin: 0 0 15px 0"><i class="fa-brands fa-{{ page.link_type }} fa-lg"></i>{{ page.link_text }}</button></a> 
       {% endif %}
 
       {% if page.images != empty %}

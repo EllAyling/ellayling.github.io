@@ -5,8 +5,8 @@
     <description>I am an experienced Software Engineer focusing on development of graphical applications.</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jul 2022 16:55:00 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2022 16:55:00 +0100</lastBuildDate>
+    <pubDate>Mon, 11 Jul 2022 18:36:15 +0100</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2022 18:36:15 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -42,13 +42,55 @@
 
 &lt;p&gt;Overall I am pretty happy with how this turned out, and I learnt a lot regarding 3D asset creation and lighting.&lt;/p&gt;
 
-&lt;p&gt;I have listed asset sources on &lt;a href=&quot;https://www.artstation.com/artwork/XBLbRD&quot;&gt;ArtStation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Full asset list can be found on ArtStation.&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Dec 2019 11:58:00 +0000</pubDate>
         <link>http://0.0.0.0:4000/portfolio/winterSuburbia</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/winterSuburbia</guid>
         
         <category>Unreal Engine</category>
+        
+        <category>Environment Design</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Midnight Gas</title>
+        <description>&lt;p&gt;Having most of my experience in Unity, I wanted to explore Unreal Engine to get a feel for both engines as research for a larger personal project I am working on. I also have found myself becoming more and more interested with 3D environment art, level design, and lighting, and wanted to grow my skills in this area, so I decided to create this small scene in my spare time.&lt;/p&gt;
+
+&lt;p&gt;The scene is based on a render by &lt;a href=&quot;https://www.behance.net/gallery/68396965/70s-night&quot;&gt;Davide Curci&lt;/a&gt;, mostly using &lt;a href=&quot;https://www.unrealengine.com/marketplace/en-US/atmospheric-gas-station&quot;&gt;Atmospheric Gas Station asset&lt;/a&gt;, with cars and human from &lt;a href=&quot;https://www.unrealengine.com/marketplace/en-US/polygon-city-pack&quot;&gt;Polygon City Pack&lt;/a&gt;, and &lt;a href=&quot;https://freesound.org/people/abinadimeza/sounds/7521/&quot;&gt;rain sound&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I enjoyed making another rainy, foggy, reflection heavy scene. As there is no movement in my scene, all of the lights are either static or stationary, and baked into the lightmap to get a better final look.&lt;/p&gt;
+
+&lt;p&gt;I was surprised with how much “smoother” Unreal feels compared to Unity- having features like volumetric fog and the material shader graph built into the engine. It feels much quicker and easier to make scenes look good, compared to Unity.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Mar 2019 18:14:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/portfolio/midnightGas</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/midnightGas</guid>
+        
+        <category>Unreal Engine</category>
+        
+        <category>Environment Design</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>The Railroad</title>
+        <description>&lt;p&gt;Feeling inspired by the &lt;a href=&quot;https://connect.unity.com/challenges/neon&quot;&gt;Neon challenge&lt;/a&gt; and its submissions, as well as sci-fi and cyberpunk in general, I thought I’d give some environment design a go. Having no real experience on the art side of things, I relied entirely on the asset store for all my models, materials, and various other bits and bobs. I created this scene in my spare time over around a month.&lt;/p&gt;
+
+&lt;p&gt;Full write up here with in progress screenshots: &lt;a href=&quot;http://elliottayling.co.uk/unity/the-railroad-unity&quot;&gt;The Railroad- Unity – Elliott Ayling&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Mar 2018 15:55:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/portfolio/theRailRoad</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/theRailRoad</guid>
+        
+        <category>Unity</category>
         
         <category>Environment Design</category>
         
