@@ -9,7 +9,7 @@ card_video: '../video/posts/wintersuburbia.mp4'
 lead_text: "Unreal Engine Environment"
 categories: portfolio
 permalink: /:categories/:title
-project_link: portfolio/wintersuburbia
+project_link: portfolio/winterSuburbia
 github_link: https://github.com/EllAyling/OrreyVK
 images:
  - ../img/winterSuburbia/ws1.jpg
