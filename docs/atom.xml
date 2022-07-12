@@ -4,7 +4,7 @@
  <title>Elliott Ayling</title>
  <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2022-07-11T18:53:11+01:00</updated>
+ <updated>2022-07-12T18:25:39+01:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name>Elliott Ayling</name>
@@ -67,6 +67,34 @@
    <content type="html">&lt;p&gt;Feeling inspired by the &lt;a href=&quot;https://connect.unity.com/challenges/neon&quot;&gt;Neon challenge&lt;/a&gt; and its submissions, as well as sci-fi and cyberpunk in general, I thought I’d give some environment design a go. Having no real experience on the art side of things, I relied entirely on the asset store for all my models, materials, and various other bits and bobs. I created this scene in my spare time over around a month.&lt;/p&gt;
 
 &lt;p&gt;Full write up here with in progress screenshots: &lt;a href=&quot;http://elliottayling.co.uk/unity/the-railroad-unity&quot;&gt;The Railroad- Unity – Elliott Ayling&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Geo-Hazard Terrain Data in VR</title>
+   <link href="http://0.0.0.0:4000/portfolio/geoHazardData"/>
+   <updated>2018-02-26T14:30:00+00:00</updated>
+   <id>http://0.0.0.0:4000/portfolio/geoHazardData</id>
+   <content type="html">&lt;p&gt;I was contracted by the University of Portsmouth’s &lt;a href=&quot;https://www.port.ac.uk/about-us/structure-and-governance/organisational-structure/our-academic-structure/faculty-of-science-and-health/school-of-the-environment-geography-and-geosciences&quot;&gt;School of the Environment, Geography and Geosciences&lt;/a&gt;, to create a prototype for the &lt;a href=&quot;https://www.port.ac.uk/research/research-projects/3dtelc&quot;&gt;3DTeLC&lt;/a&gt; project- a three year Erasmus+ funded project for visualisation of geo-hazard data, meant for use within classrooms. The project consisted of converting large digital terrain data, into a usable and textured environment within the Unity game engine. This landscape could then be explored within VR.&lt;/p&gt;
+
+&lt;p&gt;The project involved considering VR related problems, such as scale, resolution, and the user experience.&lt;/p&gt;
+
+&lt;p&gt;The project has sinced been completed and can be found &lt;a href=&quot;https://www.3dtelc.com/resources-downloads/husavik-flatey&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;mx-auto d-block&quot; src=&quot;../img/university-of-portsmouth-logo.png&quot; alt=&quot;&quot; style=&quot;max-width:300px&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Adapting Splotch for the TAO Pipeline</title>
+   <link href="http://0.0.0.0:4000/portfolio/splotchTao"/>
+   <updated>2018-02-26T13:20:00+00:00</updated>
+   <id>http://0.0.0.0:4000/portfolio/splotchTao</id>
+   <content type="html">&lt;p&gt;Working with the Centre for Astrophysics and Supercomputing at the Swinburne University of Technology in Melbourne Australia, as well as collaborating with persons at Swiss National Supercomputing Centre, I adapted the high performance volume rendering tool &lt;a href=&quot;http://wwwmpa.mpa-garching.mpg.de/~kdolag/Splotch/&quot;&gt;Splotch&lt;/a&gt; to work on the &lt;a href=&quot;http://supercomputing.swin.edu.au/&quot;&gt;gSTAR supercomputer&lt;/a&gt; for the purposes of the &lt;a href=&quot;https://tao.asvo.org.au/tao/&quot;&gt;Theoretical Astronomical Observatory (TAO)&lt;/a&gt;. This work has formed the basis for a paper that was published at the &lt;a href=&quot;http://www.adass2016.inaf.it/index.php/participants-all/4-poster/226-ayling-elliott&quot;&gt;Astronomical Data Analysis Software and Systems (ADASS)&lt;/a&gt; 2016 conference. A link to the paper can be found &lt;a href=&quot;https://www.aspbooks.org/publications/521/600.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This work has a focus on optimisation whilst also adding functionality to automate parts of the Splotch software, with the aim of lowering the level of accessibility to produce the visualisation images. I also added support for HDF5 compound data.&lt;/p&gt;
+
+&lt;p&gt;This project formed part of my University dissertation which can be found &lt;a href=&quot;../documents/Dissertation.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
