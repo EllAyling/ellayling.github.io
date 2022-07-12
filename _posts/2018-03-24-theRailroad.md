@@ -25,8 +25,11 @@ images:
  - ../img/theRailroad/rr11.jpg
 
 embedded_video_link: https://www.youtube-nocookie.com/embed/VqjAUFPDl1s
+link: https://medium.com/@elliottayling531/the-railroad-unity-project-write-up-9d2832614e66
+link_type: medium
+link_text: Medium
 ---
 
 Feeling inspired by the [Neon challenge](https://connect.unity.com/challenges/neon) and its submissions, as well as sci-fi and cyberpunk in general, I thought I'd give some environment design a go. Having no real experience on the art side of things, I relied entirely on the asset store for all my models, materials, and various other bits and bobs. I created this scene in my spare time over around a month.
 
-Full write up here with in progress screenshots: [The Railroad- Unity – Elliott Ayling](http://elliottayling.co.uk/unity/the-railroad-unity)
+Full write up here with in progress screenshots can be found on Medium.
