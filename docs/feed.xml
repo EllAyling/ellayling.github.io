@@ -5,13 +5,13 @@
     <description>I am an experienced Software Engineer focusing on development of graphical applications.</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jul 2022 18:48:52 +0100</pubDate>
-    <lastBuildDate>Tue, 12 Jul 2022 18:48:52 +0100</lastBuildDate>
+    <pubDate>Wed, 13 Jul 2022 17:59:13 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Jul 2022 17:59:13 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
         <title>Orrey Vk</title>
-        <description>&lt;p&gt;A solar system simulation written for Vulkan in C++. This is an updated Vulkan version of a similar project I created in OpenGL (found &lt;a href=&quot;orreygl&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+        <description>&lt;p&gt;A solar system simulation written for Vulkan in C++. This is an updated Vulkan version of a similar project I created in OpenGL (found &lt;a href=&quot;https://github.com/EllAyling/OrreyGL&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;My main aim for this project was to implement real time gravity calculations on a compute shader, whilst drawing all objects via a single draw call. My system (with a 2080ti) can manage ~500,000 objects whilst maintaining &amp;gt;30fps- with the bottleneck being the graphics draw.&lt;/p&gt;
 
@@ -137,6 +137,62 @@
         <category>C++</category>
         
         <category>Data Visualisation</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Companion Game</title>
+        <description>&lt;p&gt;For a final year project whilst at university, I built a game within Unity 3D game engine to showcase the use of behaviour trees. The game features a dynamically created pathfinding grid with terrain movement costs, with AI using the A* algorithm, as well as full behaviour trees for a variety of AI types.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/EllAyling/AI-Companion&quot; class=&quot;project-link&quot;&gt;&lt;button class=&quot;btn btn-default btn-lg&quot; style=&quot;margin: 0 0 15px 0&quot;&gt;&lt;i class=&quot;fa-brands fa-github fa-lg&quot;&gt;&lt;/i&gt;Github&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;../img/aiCom/ai1.png&quot; class=&quot;figure-img img-fluid rounded&quot; alt=&quot;...&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-left&quot;&gt;The companion&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;../img/aiCom/ai2.png&quot; class=&quot;figure-img img-fluid rounded&quot; alt=&quot;...&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-left&quot;&gt;Visualisation of the companion determining follow positions&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;../img/aiCom/ai4.png&quot; class=&quot;figure-img img-fluid rounded&quot; alt=&quot;...&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-left&quot;&gt;Pathfinding nodes visualised&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;../img/aiCom/ai3.png&quot; class=&quot;figure-img img-fluid rounded&quot; alt=&quot;...&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-left&quot;&gt;Code of a behaviour tree&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Sun, 25 Feb 2018 14:30:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/portfolio/aiCompanion</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/aiCompanion</guid>
+        
+        <category>Unity</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Space Game</title>
+        <description>&lt;p&gt;Space Game is a small side shooter that I developed for the Game Boy Advance. The focus of the project was to understand how to program within the restraints of a console. The game features custom artwork and music, and was written in C and ASM. The game could be run on real hardware.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Feb 2018 14:30:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/portfolio/gbaSpaceGame</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/portfolio/gbaSpaceGame</guid>
+        
+        <category>C</category>
+        
+        <category>ASM</category>
+        
+        <category>Console</category>
         
         
         <category>portfolio</category>
