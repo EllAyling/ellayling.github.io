@@ -11,7 +11,7 @@ permalink: /:categories/:title
 project_link: portfolio/geoHazardData
 
 card_video: '../video/posts/geohazardata.mp4'
-embedded_video_link: https://www.youtube-nocookie.com/embed/Xoa43w8SN9I
+embedded_video_link: https://www.youtube-nocookie.com/embed/1cb2hou6Bmc
 ---
 
 I was contracted by the University of Portsmouth's [School of the Environment, Geography and Geosciences](https://www.port.ac.uk/about-us/structure-and-governance/organisational-structure/our-academic-structure/faculty-of-science-and-health/school-of-the-environment-geography-and-geosciences), to create a prototype for the [3DTeLC](https://www.port.ac.uk/research/research-projects/3dtelc) project- a three year Erasmus+ funded project for visualisation of geo-hazard data, meant for use within classrooms. The project consisted of converting large digital terrain data, into a usable and textured environment within the Unity game engine. This landscape could then be explored within VR.

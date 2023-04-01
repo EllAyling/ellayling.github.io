@@ -20,7 +20,7 @@ images:
  - ../img/midnightGas/mg6.jpg
  - ../img/midnightGas/mg7.png
 
-embedded_video_link: https://www.youtube-nocookie.com/embed/30yeMvB6I68
+embedded_video_link: https://www.youtube-nocookie.com/embed/UYloIj-Zuzg
 ---
 
 Having most of my experience in Unity, I wanted to explore Unreal Engine to get a feel for both engines as research for a larger personal project I am working on. I also have found myself becoming more and more interested with 3D environment art, level design, and lighting, and wanted to grow my skills in this area, so I decided to create this small scene in my spare time.

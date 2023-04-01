@@ -24,7 +24,7 @@ images:
  - ../img/theRailroad/rr10.jpg
  - ../img/theRailroad/rr11.jpg
 
-embedded_video_link: https://www.youtube-nocookie.com/embed/VqjAUFPDl1s
+embedded_video_link: https://www.youtube-nocookie.com/embed/iPZJIMCwXAk
 link: https://medium.com/@elliottayling531/the-railroad-unity-project-write-up-9d2832614e66
 link_type: medium
 link_text: Medium

@@ -10,7 +10,7 @@ permalink: /:categories/:title
 project_link: portfolio/aiCompanion
 
 card_video: '../video/posts/aicom.mp4'
-embedded_video_link: https://www.youtube-nocookie.com/embed/yPU3v0DZdmY
+embedded_video_link: https://www.youtube-nocookie.com/embed/ZmczqIHg7qo
 ---
 
 For a final year project whilst at university, I built a game within Unity 3D game engine to showcase the use of behaviour trees. The game features a dynamically created pathfinding grid with terrain movement costs, with AI using the A* algorithm, as well as full behaviour trees for a variety of AI types.

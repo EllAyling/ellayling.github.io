@@ -12,7 +12,7 @@ permalink: /:categories/:title
 project_link: portfolio/gbaSpaceGame
 
 card_video: '../video/posts/spacegame.mp4'
-embedded_video_link: https://www.youtube-nocookie.com/embed/b2BAEoTrjTk
+embedded_video_link: https://www.youtube-nocookie.com/embed/8JC-0ud-dPc
 link: https://github.com/EllAyling/Game-Boy-Advance-Space-Game
 link_type: github
 link_text: Github
