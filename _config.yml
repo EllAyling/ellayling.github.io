@@ -20,6 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ellayling.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 # Build settings
 markdown: kramdown
+destination: docs/
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate-v2
