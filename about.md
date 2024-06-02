@@ -20,12 +20,22 @@ Please take a look around my site, and get to know me, and the projects I have w
 
   <div class="container">
 
+      <div class = "row justify-content-md-center align-items-md-center" style="padding-bottom: 10px">
+      <div class="col">
+            <h4 style="text-align: right;">Accelercomm 2024 - Present</h4>
+            <p style="text-align: right;"> Modelling Engineer</p>
+      </div>
+      <div class="col-auto">
+            <img src="/img/about/accelercomm-logo.png" style="width: 150px; height:auto;">
+      </div>
+      </div>
+
     <div class = "row justify-content-md-center align-items-md-center" style="padding-bottom: 10px">
       <div class="col-auto">
-            <img src="/img/imgTec.jpg" style="width: 100px; height:auto;">
+            <img src="/img/about/imgTec.jpg" style="width: 100px; height:auto;">
       </div>
       <div class="col">
-            <h4>Imagination Technologies 2016 - Present</h4>
+            <h4>Imagination Technologies 2016 - 2023</h4>
             <p>Senior Software Engineer 1 - Graphics Test Engineering</p>
       </div>
       </div>
@@ -40,7 +50,7 @@ Please take a look around my site, and get to know me, and the projects I have w
 
         </div>
         <div class="col-auto">
-              <img src="/img/portsmouthUniBadge.jpg" style="width: 100px; height:auto;">
+              <img src="/img/about/portsmouthUniBadge.jpg" style="width: 100px; height:auto;">
         </div>
         </div>
   </div>
