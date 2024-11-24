@@ -1,0 +1,21 @@
+<div class="content">
+  <div class="col">
+    <div class="card w-100">
+      <video src="{{ post.card_video }}" autoplay muted loop></video>
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text">{{ post.lead_text }}</p>
+
+        {% if post.tags != empty %}
+        <div class="d-flex flex-row bd-highlight mb-3">
+            {% for tag in post.tags %}
+            <div class="p-2 bd-highlight">{{ tag }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <a href="{{ post.project_link }}" class="stretched-link"></a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          {% if site.title != '' %}
+          <h1 class="text-center">{{site.title}}</h1>
+          {% endif %}
+
+          {% if site.description != '' or site.enable_contact == true %}
+          <p class="text-center">
+            {% if site.description != '' %}
+            {{site.description}}
+            {% endif %}
+          </p>
+          {% endif %}
+
+          <div class="hero-buttons">
+
+          <a href="https://github.com/EllAyling" target="_blank"><button class="btn btn-default btn-lg"><i class="fa-brands fa-github fa-lg"></i>Github</button></a>
+          <a href="https://bsky.app/profile/elliottayling.co.uk" target="_blank"><button class="btn btn-default btn-lg"><i class="fa-brands fa-bluesky fa-lg"></i>Bluesky</button></a>
+          <a href="https://www.linkedin.com/in/elliott-ayling-14249183/" target="_blank"><button class="btn btn-default btn-lg"><i class="fa-brands fa-linkedin fa-lg"></i>LinkedIn</button></a>
+            
+          </div>      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
