@@ -7,7 +7,7 @@ card_video: '../video/posts/devilsderby.mp4'
 lead_text: "Fast-paced FPS on skates"
 categories: portfolio
 permalink: /:categories/:title
-project_link: portfolio/devilsderby
+project_link: portfolio/devilsDerby
 embedded_video_link: https://www.youtube.com/embed/9RlZ-nDRHxA
 ---
 
