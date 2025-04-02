@@ -8,7 +8,7 @@ lead_text: "Fast-paced FPS on skates"
 categories: portfolio
 permalink: /:categories/:title
 project_link: portfolio/devilsDerby
-embedded_video_link: https://www.youtube.com/embed/9RlZ-nDRHxA
+embedded_video_link: https://www.youtube.com/embed/VC-ZJiUJlCs
 ---
 
 Devil's Derby is a fast-paced first person shooter on skates, where you fight endless hordes of demons as you use advance movement techniques to shoot, skate, and slide your way around a singular arena to compete for high score.
