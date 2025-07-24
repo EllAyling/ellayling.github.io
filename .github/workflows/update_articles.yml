@@ -1,12 +1,16 @@
 name: Update Medium Posts
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:      # Allow manual run
+  workflow_dispatch:     # Allow manual run
 
 jobs:
   update:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || (github.event_name == 'push' && github.actor != 'github-actions[bot]')
     runs-on: ubuntu-latest
 
     steps:
@@ -29,14 +33,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add _data/medium_posts.yml
 
           # Check for staged changes and commit only if there are any
           if ! git diff --cached --quiet; then
             git commit -m "Update Medium posts"
             git push
-            echo "Changes detected and pushed"
           else
-            echo "No changes to commit."
+            echo "No changes to commit"
           fi
