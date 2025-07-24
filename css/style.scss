@@ -60,7 +60,7 @@ h5 {
 }
 
 article {
-  margin: 5em 0;
+  margin: 0 0;
 }
 
 p {
@@ -128,17 +128,54 @@ button.btn, input.btn {
 .navbar {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 0px;
 }
-.navbar-nav{
-  flex-direction: row;
+
+.nav-container {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 180px;
   align-items: center;
 }
 
-.nav-item{
-  color: #000000;
+.navbar-brand {
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.left-container,
+.right-container {
+  width: 180px;
+  display: flex;
+}
+
+.left-container {
+  justify-content: flex-end;
+  align-items: right;
+}
+
+.right-container {
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+
+.nav-item {
   font-size: 22px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  flex-shrink: 0; /* prevent logo from shrinking */
 }
 .navbar-light{
   .navbar-nav{
@@ -382,6 +419,77 @@ button.btn, input.btn {
     }
   }
 }
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  max-width: 900px;      /* wider container */
+  margin: 0 auto;
+}
+
+.blog-list li {
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-list li:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.blog-list li a {
+  display: flex;
+  gap: 25px;
+  text-decoration: none;
+  color: #222;
+  width: 100%;
+  padding: 20px;
+  flex-direction: row; /* default direction */
+}
+
+/* Flip direction for even posts */
+.blog-list li:nth-child(even) a {
+  flex-direction: row-reverse;
+}
+
+.blog-list li a img {
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.blog-list li a div {
+  flex-grow: 1;
+}
+
+.blog-list li a h3 {
+  margin: 0 0 12px;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.blog-list li a p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.blog-list li a time {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
 
 /*--------------------------------------------------------------
 	4.0 Footer

@@ -16,7 +16,7 @@
 title: "Elliott Ayling"
 description: "I am an experienced Software Engineer focusing on development of graphical applications."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ellayling.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://elliottayling.co.uk" # the base hostname & protocol for your site, e.g. https://example.com
 # Build settings
 markdown: kramdown
 destination: _site/
@@ -95,4 +95,5 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  - { url: '/articles', text: 'Articles' }
   - { url: '/about', text: 'About' }
