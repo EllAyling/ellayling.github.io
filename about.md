@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hello, my name is **Elliott Ayling**. I am an experienced Software Engineer focusing on development of graphical applications. My main focus has been on **C++** applications using **Vulkan**, and **OpenGL** (including **OpenGL ES**), using **GLSL** shaders.
+Hello, my name is **Elliott Ayling**. I am an experienced Software Engineer focusing on development of C++ applications. My main focus has been on **graphical** and **system modelling** applications, and I have strong experience with **Vulkan**, and **OpenGL** (including **OpenGL ES**), using **GLSL** shaders.
 
-I am knowledgeable within a range of environments, including **Windows** and **Linux**, but also **HPC** (high performance computing) architectures involving parallel platforms such as **CUDA**, **OpenMP**, and **Open MPI**.
+I am knowledgeable within a range of environments, including **Windows** and **Linux**, with a focus on cross-platform compatibility using **CMake**, but also **HPC** (high performance computing) architectures involving parallel platforms.
+
+Outside of my career I focus on game development. My most recent release was [Devil's Derby](https://store.steampowered.com/app/3121580) in 2025, using Unity game engine! And now I'm working on the next one.
 
 I graduated from the University of Portsmouth in 2016 with a **1st class degree in Computer Games Technology**, earning two **awards**. During this time, I earned a large amount of experience over various technologies, but most noticeably with the **Unity 3D** game engine; and I also have experience with **Blender**.
 
@@ -22,7 +24,7 @@ Please take a look around my site, and get to know me, and the projects I have w
 
       <div class = "row justify-content-md-center align-items-md-center" style="padding-bottom: 10px">
       <div class="col">
-            <h4 style="text-align: right;">Accelercomm 2024 - Present</h4>
+            <h4 style="text-align: right;">Accelercomm 2024 - May 2025</h4>
             <p style="text-align: right;"> Modelling Engineer</p>
       </div>
       <div class="col-auto">
