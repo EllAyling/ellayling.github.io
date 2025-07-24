@@ -34,9 +34,9 @@ jobs:
 
           # Check for staged changes and commit only if there are any
           if ! git diff --cached --quiet; then
-            #git commit -m "Update Medium posts"
-            #git push
-            echo "Changes detected"
+            git commit -m "Update Medium posts"
+            git push
+            echo "Changes detected and pushed"
           else
             echo "No changes to commit."
           fi
